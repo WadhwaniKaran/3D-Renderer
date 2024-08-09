@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Texture Files">
+      <UniqueIdentifier>{4249e7e6-6934-49dc-9242-8779e95f2bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{6b451c81-1fb2-43d1-bead-3438afc4e9da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\lightSource.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shaders\lightSource.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shaders\object.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shaders\object.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shaders\backpack.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shaders\backpack.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\awesomeface.jpg">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\container.jpg">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\container2.jpg">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\container2_specular.jpg">
+      <Filter>Texture Files</Filter>
+    </Image>
+    <Image Include="textures\emission.jpg">
+      <Filter>Texture Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="objects\cube.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
